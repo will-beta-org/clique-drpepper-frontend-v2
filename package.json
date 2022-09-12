@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "@cliqueofficial/design-system": "^1.0.0"
+    "@cliqueofficial/design-system": "https://github.com/CliqueOfficial/design-system.git#v1.0.0"
   }
 }
