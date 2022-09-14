@@ -1,0 +1,18 @@
+name: Node Code Formatter
+on: push
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+
+    - run: |
+        yarn global add prettier
+        yarn format
+        git restore .github/
+
+    - name: Commit The New Image Reference
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: format code
