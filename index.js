@@ -1,4 +1,4 @@
-	let a="hello";
-console.log(a)
+let a = "hello";
+console.log(a);
 
-let Whatever
+let Whatever;
