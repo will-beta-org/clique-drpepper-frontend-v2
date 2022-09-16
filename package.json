@@ -1,5 +1,17 @@
 {
+  "name": "clique-drpepper-frontend-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/CliqueOfficial/drpepper-frontend-v2",
+  "author": "will-beta <i@will-beta.com>",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write ."
+  },
   "dependencies": {
-    "@cliqueofficial/design-system": "https://github.com/CliqueOfficial/design-system.git#v1.0.0"
+    "@cliqueofficial/design-system": "https://github.com/CliqueOfficial/design-system.git#98baba7d11c199b81dfba9264c0ec8b0cc53ef24"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
   }
 }
