@@ -1,5 +1,4 @@
 name: Node Code Formatter
-on: push
 
 jobs:
   lint:
